@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: #f1f3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .login-container h2 {
+    margin-bottom: 25px;
+    color: #2874f0;
+  }
+
+  .input-group {
+    margin-bottom: 18px;
+    text-align: left;
+  }
+
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  .input-group input:focus {
+    border-color: #2874f0;
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #fb641b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .login-btn:hover {
+    background: #e85a15;
+  }
+
+  .extra {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .extra a {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .error {
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+    display: none;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="login-container">
+  <h2>Login</h2>
+
+<div class="input-group">
+  <label>Email</label>
+  <input type="email" placeholder="Enter email">
+</div>
+
+<div class="input-group">
+  <label>Password</label>
+  <input type="password" placeholder="Enter password">
+</div>
+
+<button class="login-btn">Login</button>
+
+<p class="error" style="display:none">Invalid email or password</p>
+  <div class="extra">
+    New user? <a href="#">Create account</a>
+  </div>
+</div>
+
+<script>
+function loginUser() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const errorMsg = document.getElementById("errorMsg");
+
+  // demo login (change later with backend)
+  if (email === "admin@gmail.com" && password === "1234") {
+    alert("Login successful!");
+    window.location.href = "index.html"; // your home page
+  } else {
+    errorMsg.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
