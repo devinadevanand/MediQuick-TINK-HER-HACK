@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+MediQuick 
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Hacktide
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Devina Devanand-College of Engineering Pathanapuram
+- Member 2: Sanjana S-College of Engineering Pathanapuram
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://devinadevanand.github.io/MediQuick-TINK-HER-HACK/
 
 ### Project Description
-[2-3 lines about what your project does]
+It includes a simple dummy login system and interactive product buttons for a fast, user-friendly experience.
 
 ### The Problem statement
-[What problem are you solving?]
+Many people find it difficult to quickly search and buy medicines  especially during emergencies.
 
 ### The Solution
-[How are you solving it?]
+Our project provides a simple, responsive online medicine store with a search bar and product listing for easy browsing
 
 ---
 
@@ -31,25 +31,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:  JavaScript,html,css
+- Frameworks used: none
+- Libraries used: none
+- Tools used:  VS Code,google chrome
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: laptop,internet connection
+- Specifications: 
+- Tools required: vs code
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Upload Prescrirtion-User can upload doctors prescription to order prescribed medicines securely.
+- Feature 2: Direct Medicine Ordering-User can directly order commonly used medicines like paracetamol,dolo,..
+- Feature 3: Fast Delivery System-Ensure quick doorstep delivery within 30-60 minutes.
+- Feature 4: User Friendly Interface-Simple,clean and responsive design for easy navigating on mobile and desktop. 
 
 ---
 
@@ -59,21 +59,28 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+# Clone the repository
+git clone https://github.com/your-username/MediQuick.git
 
+# Move into the project folder
+cd MediQuick
+
+# No additional dependencies required
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+# Open index.html in your browser
+
+# OR if using VS Code:
+# Right click index.html → Open with Live Serve
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+laptop,internet conection
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+Not applicable
 
 ---
 
@@ -177,10 +184,22 @@ List the key features of your project:
 
 ### For Mobile Apps:
 
+This project is currently developed as a web-based application and does not include a native Android or iOS mobile app.
+However, the website is designed to be responsive, meaning it works smoothly on:
+Mobile phones
+Tablets
+Laptops
+Desktops
 #### App Flow Diagram
 
 ![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+1.User opens the MediQuick website
+2.User selects one of the options:
+     Upload Prescription
+     Order Medicines
+3.User adds medicines to cart
+4.User proceeds to checkout
+5.Order confirmation displayed
 
 #### Installation Guide
 
