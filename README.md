@@ -99,13 +99,6 @@ Not applicable
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
-#### Diagrams
-
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
 **Application Workflow:**
 User opens the website → sees hero section and search bar.
 User logs in →  checked → redirected to homepage.
@@ -113,34 +106,6 @@ User searches for medicines → products filtered live.
 User browses products → clicks Add to Cart.
 Optional cart page → displays added products 
 End of session / user can navigate back to homepage or login out.
-
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 
 ### For Mobile Apps:
@@ -153,7 +118,7 @@ Laptops
 Desktops
 #### App Flow Diagram
 
-![App Flow](docs/app-flow.png)
+![App Flow]
 1.User opens the MediQuick website
 2.User selects one of the options:
      Upload Prescription
@@ -191,73 +156,16 @@ flutter build apk
 flutter build ios
 # or
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
-
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-
-
-
+````
 ## AI Tools Used (Optional - For Transparency Bonus)
 
 If you used AI tools during development, document them here for transparency:
 
 **Tool Used:**  GitHub ,ChatGPT, 
 
-**Purpose:** [What you used it for]
+**Purpose:**
 - Example:Code review and optimization suggestions
 
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
-
-**Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
-
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
 
